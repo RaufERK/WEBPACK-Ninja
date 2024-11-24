@@ -1,4 +1,4 @@
-import { add as addNumber, addAndMuliply } from './functions/index.js'
+import { add as addNumber, addAndMuliply } from './functions/index'
 
 const output = addNumber(1, 2)
 const outputM = addAndMuliply(1, 2, 2)
