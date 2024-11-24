@@ -2,9 +2,9 @@ import _ from 'lodash'
 import style from './index.css'
 import './clearButton'
 
-console.log(style)
-
 const btn1 = document.getElementById('button1')
+
+btn1.classList.add([style.button])
 
 btn1.addEventListener('click', function () {
   const el = document.getElementById('header')
@@ -18,5 +18,3 @@ btn1.addEventListener('click', function () {
     ul.appendChild(tempEl)
   })
 })
-
-btn1.classList.add([style.button])
