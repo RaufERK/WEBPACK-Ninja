@@ -1,12 +1,12 @@
-const { add: addNumber, addAndMuliply } = require('./functions')
+import { add as addNumber, addAndMuliply } from './functions/index.js'
 
 const output = addNumber(1, 2)
 const outputM = addAndMuliply(1, 2, 2)
 
-function add(params) {
+function add1(params) {
   console.log('hello!')
 }
 
 console.log(output)
 console.log(outputM)
-add()
+add1()

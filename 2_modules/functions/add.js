@@ -1,12 +1,9 @@
-function add(a, b) {
+export function add(a, b) {
   return a + b
 }
 
-function addAndMuliply(a, b, c) {
+export function addAndMuliply(a, b, c) {
   return (a + b) * c
 }
 
-module.exports = {
-  add,
-  addAndMuliply,
-}
+export default add

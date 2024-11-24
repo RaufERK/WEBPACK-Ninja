@@ -1,8 +1,4 @@
-const { add, addAndMuliply } = require('./add')
-const subtract = require('./subtract')
+import add, { addAndMuliply } from './add.js'
+import subtract from './subtract.js'
 
-module.exports = {
-  add,
-  addAndMuliply,
-  subtract,
-}
+export { add, subtract, addAndMuliply }
