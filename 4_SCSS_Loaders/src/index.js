@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import style from './index.css'
+import style from './index.scss'
 import './clearButton'
 
 const btn1 = document.getElementById('button1')

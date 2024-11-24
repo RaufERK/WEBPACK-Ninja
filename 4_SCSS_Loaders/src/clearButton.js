@@ -1,4 +1,4 @@
-import styles from './clearButton.css'
+import styles from './clearButton.scss'
 
 console.log(2, styles)
 const clearButton = document.createElement('button')
